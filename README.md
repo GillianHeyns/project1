@@ -3,8 +3,8 @@ Dit is de repo van jullie team voor **Keuzeproject 1** met **Materialize** in 1I
 
 gnadesign
 Arne Sas
-Arne van Beethoven
-Arne de Cnodder
+Arne Van Beethoven
+Arne De Cnodder
 Gillian Heyns
 
 <p align="center">
