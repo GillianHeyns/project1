@@ -68,3 +68,11 @@ h2 {
 .ondertitel {
     font-family: 'Righteous', cursive;
 }
+
+.icon-block img {
+    transition: 1s;
+}
+
+.icon-block img:hover {
+    transform: scale(1.1);
+}
