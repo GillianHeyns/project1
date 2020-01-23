@@ -60,7 +60,8 @@ footer.page-footer {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Righteous', cursive;
     color: #26a69a;
 }
@@ -75,4 +76,8 @@ h2 {
 
 .icon-block img:hover {
     transform: scale(1.1);
+}
+
+.brand {
+    margin-top: 50px;
 }
