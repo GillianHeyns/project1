@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-    color: #26a69a;
+    color: #1c707b;
 }
 
 .parallax-container {
@@ -57,13 +57,15 @@ p {
 
 footer.page-footer {
     margin: 0;
+    background-color: #1c707b;
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Righteous', cursive;
-    color: #26a69a;
+    color: #1c707b;
+    text-shadow: 3px 3px 5px white;
 }
 
 .ondertitel {
@@ -88,6 +90,7 @@ h3 {
     height: 50px;
     margin-top: 3px;
 }
+
 
 .actie_min img {
     transition: 1s;
@@ -115,4 +118,8 @@ h3 {
 .fa-twitter {
     background: #55ACEE;
     color: white;
+
+h5 {
+    font-weight: bold;
+
 }
