@@ -7,6 +7,24 @@ en die bovenop materialize komen */
 body {
     background-color: #eee;
     color: darkblue;
+    line-height: 1.5;
+}
+.footer{
+    background-color: darkblue;
+    color: white;
+    padding-top: 50px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
