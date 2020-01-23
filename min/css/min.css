@@ -25,4 +25,57 @@ width: 70px;
 .fa-facebook {
   background: #3B5998;
   color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titel {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.talen {
+    background: linear-gradient(104deg, rgb(46, 35, 229) 0%, rgba(48, 125, 255, 1) 100%);
+    padding: 50px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px #888888;
+}
+
+.talen ul li {
+    padding: 10px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.talen ul li a {
+    color: white;
+}
+
+.talen ul li a span {
+    text-decoration: none;
+}
+
+.talen ul li:hover {
+    padding-left: 15px;
+    background-color: darkblue;
+}
+
+.talen ul li a span:hover {
+    text-decoration: underline;
+}
+
+.background {
+    height: 100vh;
+    background: #d0e9f1;
 }
