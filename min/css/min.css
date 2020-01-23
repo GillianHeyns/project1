@@ -34,16 +34,26 @@ body {
 }
 
 .talen ul li {
-    padding-top: 10px;
+    padding: 10px;
     transition: 1s;
+    border-radius: 10px;
 }
 
 .talen ul li a {
     color: white;
 }
 
+.talen ul li a span {
+    text-decoration: none;
+}
+
 .talen ul li:hover {
-    padding-left: 10px;
+    padding-left: 15px;
+    background-color: darkblue;
+}
+
+.talen ul li a span:hover {
+    text-decoration: underline;
 }
 
 .background {
