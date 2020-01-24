@@ -175,6 +175,13 @@ footer p a {
 .footer-copyright p a:hover {
     text-decoration: none;
 }
+
+
+h3 {
+    font-size: 25px;
+}
+
 .list{
     margin-left: 50px;
 }
+
