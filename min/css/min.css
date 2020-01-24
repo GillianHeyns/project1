@@ -175,3 +175,6 @@ footer p a {
 .footer-copyright p a:hover {
     text-decoration: none;
 }
+.list{
+    margin-left: 50px;
+}
