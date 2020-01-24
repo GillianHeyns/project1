@@ -121,6 +121,7 @@ nav ul {
 .container .para {
     transition: 1s;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 10px;
 
     /*background: linear-gradient(104deg, #a7e0f3 0%, #d0e9f1 100%);*/
@@ -149,6 +150,14 @@ li {
     margin-bottom: 0;
 }
 
+nav li ul {
+    padding: 0;
+    width: 110px !important;
+}
+
+nav li ul li a {
+    color: rgb(33, 150, 243) !important;
+}
 
 iframe {
     width: 100%;
@@ -216,6 +225,12 @@ h3 {
     font-size: 25px;
 }
 
-.list{
+.list {
     margin-left: 50px;
 }
+
+figure figcaption{
+    color: black;
+    padding-bottom: 20px;
+}
+
