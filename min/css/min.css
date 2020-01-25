@@ -220,6 +220,23 @@ footer p a {
     text-decoration: none;
 }
 
+.figuur:hover {
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    transform: scale(1.1);
+
+}
+
+.figuur {
+    transition: 2s;
+    padding: 20px 10px;
+}
+
+.logofoto {
+    max-width: 100%;
+    height: 100px;
+}
 
 h3 {
     font-size: 25px;
@@ -233,4 +250,3 @@ figure figcaption{
     color: black;
     padding-bottom: 20px;
 }
-
