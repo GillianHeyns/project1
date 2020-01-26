@@ -13,7 +13,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(33, 150, 243);
+    background-color: #0967C4;
     padding-top: 50px;
     color: white;
     text-align: center;
@@ -156,7 +156,7 @@ nav li ul {
 }
 
 nav li ul li a {
-    color: rgb(33, 150, 243) !important;
+    color: #0967C4 !important;
 }
 
 iframe {
@@ -188,7 +188,7 @@ h1 {
     padding-top: 30px;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #2196F3
+    color: #0967C4
 }
 
 #opening {
@@ -246,7 +246,11 @@ h3 {
     margin-left: 50px;
 }
 
-figure figcaption{
+figure figcaption {
     color: black;
     padding-bottom: 20px;
+}
+
+.ccakleur {
+    background-color: #0967C4;
 }
