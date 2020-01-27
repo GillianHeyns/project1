@@ -109,6 +109,8 @@ nav ul {
     height: 100vh;
 }
 
+
+
 .txt p {
     color: black;
     padding: 20px;
@@ -193,6 +195,20 @@ h1 {
 
 #opening {
     margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+#homebg {
+    background-image: url(../img/actie_min_brood.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 }
 
 h4 {
@@ -201,6 +217,35 @@ h4 {
     font-size: 16px;
 }
 
+.hulp {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#knop h4 a {
+    padding: 10px;
+    background-color: #0967C4;
+    color: white;
+    font-size: 14px;
+}
+
+.effect {
+    transition: 1s;
+}
+
+.effect:hover {
+    transform: scale(1.1);
+}
 
 footer p {
     padding: 10px;
@@ -253,4 +298,13 @@ figure figcaption {
 
 .ccakleur {
     background-color: #0967C4;
+}
+
+@media screen and (min-width: 600px) {
+    #knop h4 a {
+        padding: 15px;
+        background-color: #0967C4;
+        color: white;
+        font-size: 20px;
+    }
 }
