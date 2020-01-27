@@ -235,25 +235,32 @@ h1 {
     padding-top: 50px;
 }
 #homebg {
-    background-image: url(../img/actie_min_brood.jpg);
+    background-image: url(../img/actie_MIN_bloemen.jpg);
+    color: white;
 }
 #opisopbg{
-      background-image: url(../img/actie_MIN_bloemen.jpg); 
+      background-image: url(../img/actie_MIN_tomaat.jpg ); 
+     color: white;
 }
 #activiteitenbg{
+     color: white;
        background-image: url(../img/actie_MIN_conserven.jpg); 
 }
 #historiekbg{
      background-image: url(../img/actie_MIN_fruit.jpg); 
+     color: white;
 }
 #donerenbg{
          background-image: url(../img/actie_MIN_groenten.jpg); 
+     color: white;
 }
 #armoedebeleidbg{
-      background-image: url(../img/actie_MIN_tomaat.jpg); 
+      background-image: url(../img/actie_MIN_bloemen.jpg); 
+     color: white;
 }
 #sponsorsbg{
          background-image: url(../img/actie_MIN_yoghurt.jpg); 
+     color: white;
 }
 
 
