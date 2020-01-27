@@ -377,3 +377,7 @@ figure figcaption {
 .hover:hover{
     opacity: 0.7;
 }
+
+:focus {
+    background-color: #244891;
+}
