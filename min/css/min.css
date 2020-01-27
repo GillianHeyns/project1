@@ -431,3 +431,6 @@ figure figcaption {
 :focus {
     background-color: #244891;
 }
+#facebookfeed{
+    height: 400px;
+}
