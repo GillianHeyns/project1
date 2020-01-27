@@ -109,6 +109,8 @@ nav ul {
     height: 100vh;
 }
 
+
+
 .txt p {
     color: black;
     padding: 20px;
@@ -240,6 +242,8 @@ h4 {
     position: relative;
     text-align: center;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .centered {
@@ -253,7 +257,15 @@ h4 {
     padding: 10px;
     background-color: #0967C4;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.effect {
+    transition: 1s;
+}
+
+.effect:hover {
+    transform: scale(1.1);
 }
 
 footer p {
@@ -305,9 +317,23 @@ figure figcaption {
     padding-bottom: 20px;
 }
 
+#naarboven {
+    float: right;
+    position: relative;
+}
+
 .ccakleur {
     background-color: #0967C4;
 }
 #opisop{
     padding-top: 40px;
+
+
+@media screen and (min-width: 600px) {
+    #knop h4 a {
+        padding: 15px;
+        background-color: #0967C4;
+        color: white;
+        font-size: 20px;
+    }
 }
