@@ -134,6 +134,31 @@ nav ul {
     box-shadow: 3px 3px 3px 3px #cdcdcd;
 }
 
+.linkenfoot div {
+    padding-top: 20px !important;
+}
+
+.totop {
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    width: 60px;
+    z-index: 100;
+}
+
+.taalfoot li a {
+    display: block;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+}
+
+.taalfoot li a:hover {
+    color: #0967C4;
+    background-color: white;
+}
+
 .container .para p {
     padding: 30px
 }
