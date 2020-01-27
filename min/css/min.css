@@ -223,9 +223,9 @@ h1 {
     padding-top: 30px;
 }
 
-#homebg {
-    background-image: url(../img/actie_min_brood.jpg);
-    background-position: center center;
+
+.bckgrnd{
+      background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -234,7 +234,28 @@ h1 {
     padding-bottom: 50px;
     padding-top: 50px;
 }
+#homebg {
+    background-image: url(../img/actie_min_brood.jpg);
 }
+#opisopbg{
+      background-image: url(../img/actie_MIN_bloemen.jpg); 
+}
+#activiteitenbg{
+       background-image: url(../img/actie_MIN_conserven.jpg); 
+}
+#historiekbg{
+     background-image: url(../img/actie_MIN_fruit.jpg); 
+}
+#donerenbg{
+         background-image: url(../img/actie_MIN_groenten.jpg); 
+}
+#armoedebeleidbg{
+      background-image: url(../img/actie_MIN_tomaat.jpg); 
+}
+#sponsorsbg{
+         background-image: url(../img/actie_MIN_yoghurt.jpg); 
+}
+
 
 h4 {
     color: black;
@@ -329,6 +350,9 @@ figure figcaption {
 .ccakleur {
     background-color: #0967C4;
 }
+#opisop{
+    padding-top: 40px;
+
 
 @media screen and (min-width: 600px) {
     #knop h4 a {
@@ -337,4 +361,9 @@ figure figcaption {
         color: white;
         font-size: 20px;
     }
+}
+
+.video {
+    margin-left: 50px;
+    margin-right: 50px;
 }
