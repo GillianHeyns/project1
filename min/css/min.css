@@ -202,7 +202,7 @@ h4 {
 
 #logo {
     height: 64px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-copyright {
@@ -223,6 +223,7 @@ h1 {
     padding-top: 30px;
 }
 
+.brand-logo img {}
 
 .bckgrnd {
     background-position: center center;
@@ -240,30 +241,34 @@ h1 {
     color: white;
 }
 
-#opisopbg{
-      background-image: url(../img/actie_MIN_tomaat.jpg ); 
-     color: white;
+#opisopbg {
+    background-image: url(../img/actie_MIN_tomaat.jpg );
+    color: white;
 }
-#activiteitenbg{
-     color: white;
-       background-image: url(../img/actie_MIN_conserven.jpg); 
-}
-#historiekbg{
-     background-image: url(../img/actie_MIN_fruit.jpg); 
-     color: white;
-}
-#donerenbg{
-         background-image: url(../img/actie_MIN_groenten.jpg); 
-     color: white;
-}
-#armoedebeleidbg{
-      background-image: url(../img/actie_MIN_bloemen.jpg); 
-     color: white;
-}
-#sponsorsbg{
-         background-image: url(../img/actie_MIN_yoghurt.jpg); 
-     color: white;
 
+#activiteitenbg {
+    color: white;
+    background-image: url(../img/actie_MIN_conserven.jpg);
+}
+
+#historiekbg {
+    background-image: url(../img/actie_MIN_fruit.jpg);
+    color: white;
+}
+
+#donerenbg {
+    background-image: url(../img/actie_MIN_groenten.jpg);
+    color: white;
+}
+
+#armoedebeleidbg {
+    background-image: url(../img/actie_MIN_bloemen.jpg);
+    color: white;
+}
+
+#sponsorsbg {
+    background-image: url(../img/actie_MIN_yoghurt.jpg);
+    color: white;
 }
 
 
@@ -326,7 +331,6 @@ footer p a {
     border-radius: 10px;
     box-shadow: 1px 1px 10px gray;
     transform: scale(1.1);
-
 }
 
 .figuur {
@@ -374,6 +378,12 @@ figure figcaption {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #logo {
+        height: 56px;
+    }
+}
+
 .video {
     margin-left: 50px;
     margin-right: 50px;
@@ -409,12 +419,10 @@ figure figcaption {
 
 }
 
-.hover:hover{
+.hover:hover {
     opacity: 0.7;
 }
-
 
 :focus {
     background-color: #244891;
 }
-
