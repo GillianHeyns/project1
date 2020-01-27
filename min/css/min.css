@@ -414,3 +414,8 @@ figure figcaption {
     opacity: 0.7;
 }
 
+
+:focus {
+    background-color: #244891;
+}
+
