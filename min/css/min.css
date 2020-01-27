@@ -234,3 +234,8 @@ figure figcaption{
     padding-bottom: 20px;
 }
 
+#naarboven {
+    float: right;
+    position: relative;
+}
+
