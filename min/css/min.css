@@ -5,7 +5,7 @@
 en die bovenop materialize komen */
 
 body {
-    background: #d0e9f1;
+    background: #ebebeb;
     color: darkblue;
     line-height: 1.5;
     font-family: 'Armata', sans-serif;
@@ -224,8 +224,8 @@ h1 {
 }
 
 
-.bckgrnd{
-      background-position: center center;
+.bckgrnd {
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -234,26 +234,33 @@ h1 {
     padding-bottom: 50px;
     padding-top: 50px;
 }
+
 #homebg {
     background-image: url(../img/actie_min_brood.jpg);
 }
-#opisopbg{
-      background-image: url(../img/actie_MIN_bloemen.jpg); 
+
+#opisopbg {
+    background-image: url(../img/actie_MIN_bloemen.jpg);
 }
-#activiteitenbg{
-       background-image: url(../img/actie_MIN_conserven.jpg); 
+
+#activiteitenbg {
+    background-image: url(../img/actie_MIN_conserven.jpg);
 }
-#historiekbg{
-     background-image: url(../img/actie_MIN_fruit.jpg); 
+
+#historiekbg {
+    background-image: url(../img/actie_MIN_fruit.jpg);
 }
-#donerenbg{
-         background-image: url(../img/actie_MIN_groenten.jpg); 
+
+#donerenbg {
+    background-image: url(../img/actie_MIN_groenten.jpg);
 }
-#armoedebeleidbg{
-      background-image: url(../img/actie_MIN_tomaat.jpg); 
+
+#armoedebeleidbg {
+    background-image: url(../img/actie_MIN_tomaat.jpg);
 }
-#sponsorsbg{
-         background-image: url(../img/actie_MIN_yoghurt.jpg); 
+
+#sponsorsbg {
+    background-image: url(../img/actie_MIN_yoghurt.jpg);
 }
 
 
@@ -350,8 +357,10 @@ figure figcaption {
 .ccakleur {
     background-color: #0967C4;
 }
-#opisop{
+
+#opisop {
     padding-top: 40px;
+}
 
 
 @media screen and (min-width: 600px) {
@@ -366,4 +375,33 @@ figure figcaption {
 .video {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#infoop {
+    padding: 20px;
+    border: 2px dashed #0967c4;
+}
+
+#winkelid {
+    background-color: #0967c4;
+    color: white;
+    padding: 10px;
+}
+
+.listpad {
+    padding-bottom: 20px;
+}
+
+.titeltje {
+    text-decoration: underline;
+}
+
+#kaderpad {
+    padding-top: 20px;
+}
+
+#titelactiv {
+    padding: 20px 0px;
+    margin: 0;
+
 }
